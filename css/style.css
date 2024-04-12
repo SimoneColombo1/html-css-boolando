@@ -58,12 +58,36 @@ main{
 .heart :hover{
     background-color: red;
 }
-
-.img-2b{
-    
-    display: none;
-}
-  .img-2 :hover .img-2b{
+ 
+ div > .img-2b{
     display: absolute;
     bottom: 46.2rem;
+    display: none;
+    
+}
+ 
+div :hover > .img-2b{
+    display: block;
+}
+  
+div > .img-1b{
+    display: absolute;
+    bottom: 46.2rem;
+    display: none;
+    
+}
+ 
+div :hover > .img-1b{
+    display: block;
+}
+
+div > .img-3b{
+    display: absolute;
+    bottom: 46.2rem;
+    display: none;
+    
+}
+ 
+div :hover > .img-3b{
+    display: block;
 }
