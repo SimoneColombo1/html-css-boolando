@@ -31,7 +31,7 @@ header nav{
     padding: 1rem 6rem;
 }
 
-main{
+.linea1{
     display: flex;
     flex-direction: row;
 }
@@ -56,38 +56,116 @@ main{
 }
 
 .heart :hover{
-    background-color: red;
-}
- 
- div > .img-2b{
-    display: absolute;
-    bottom: 46.2rem;
-    display: none;
-    
-}
- 
-div :hover > .img-2b{
-    display: block;
+    color: red;
 }
   
-div > .img-1b{
-    display: absolute;
-    bottom: 46.2rem;
-    display: none;
-    
-}
- 
-div :hover > .img-1b{
+ .img-1{
     display: block;
+ }
+  .img-1b{
+    display: none;
+  }
+   
+   #prima-foto{
+
+   }
+   #prima-foto:hover .img-1{
+    display: none;
+   }
+  #prima-foto:hover .img-1b{
+    display: block;
+  }
+
+
+
+  .img-2{
+    display: block;
+ }
+  .img-2b{
+    display: none;
+  }
+   
+   #seconda-foto{
+
+   }
+   #seconda-foto:hover .img-2{
+    display: none;
+   }
+  #seconda-foto:hover .img-2b{
+    display: block;
+  }
+  .img-3{
+    display: block;
+ }
+  .img-3b{
+    display: none;
+  }
+   
+   #terza-foto{
+
+   }
+   #terza-foto:hover .img-3{
+    display: none;
+   }
+  #terza-foto:hover .img-3b{
+    display: block;
+  }
+
+
+
+
+.linea2{
+    display: flex;
+    flex-direction: row;
 }
 
-div > .img-3b{
-    display: absolute;
-    bottom: 46.2rem;
-    display: none;
-    
-}
- 
-div :hover > .img-3b{
+.img-4{
     display: block;
-}
+ }
+  .img-4b{
+    display: none;
+  }
+   
+   #quarta-foto{
+
+   }
+   #quarta-foto:hover .img-4{
+    display: none;
+   }
+  #quarta-foto:hover .img-4b{
+    display: block;
+  }
+  .img-5{
+    display: block;
+ }
+  .img-5b{
+    display: none;
+  }
+   
+   #quinta-foto{
+
+   }
+   #quinta-foto:hover .img-5{
+    display: none;
+   }
+  #quinta-foto:hover .img-5b{
+    display: block;
+  }
+  .img-6{
+    display: block;
+ }
+  .img-6b{
+    display: none;
+  }
+   
+   #sesta-foto{
+
+   }
+   #sesta-foto:hover .img-6{
+    display: none;
+   }
+  
+  #sesta-foto:hover .img-6b{
+    display: block;
+  }
+ 
